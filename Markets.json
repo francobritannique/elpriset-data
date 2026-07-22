@@ -1,0 +1,127 @@
+[
+  {
+    "id": "SE", "name": "Sweden", "flag": "🇸🇪", "subunitLabel": "öre", "currencyLabel": "kr",
+    "vatRate": 0.25, "tomorrowPublishHour": 13, "timeZoneID": "Europe/Stockholm",
+    "providerID": "elpriset", "baseURL": "https://www.elprisetjustnu.se/api/v1/prices",
+    "zones": [
+      { "id": "SE1", "description": "SE1 – North", "weatherLat": 65.5848, "weatherLon": 22.1547,
+        "outlook": { "wind": 1.0, "solar": 0, "heating": 0.5, "cooling": 0 }, "bounds": { "minLat": 64.9 } },
+      { "id": "SE2", "description": "SE2 – North-Central", "weatherLat": 62.3908, "weatherLon": 17.3069,
+        "outlook": { "wind": 1.0, "solar": 0, "heating": 0.5, "cooling": 0 }, "bounds": { "minLat": 61.0, "maxLat": 64.9 } },
+      { "id": "SE3", "description": "SE3 – Central (Stockholm)", "weatherLat": 59.3293, "weatherLon": 18.0686,
+        "outlook": { "wind": 1.0, "solar": 0, "heating": 1.0, "cooling": 0 }, "bounds": { "minLat": 56.6, "maxLat": 61.0 } },
+      { "id": "SE4", "description": "SE4 – South (Malmö)", "weatherLat": 55.6050, "weatherLon": 13.0038,
+        "outlook": { "wind": 1.0, "solar": 0, "heating": 1.0, "cooling": 0 } }
+    ]
+  },
+  {
+    "id": "NO", "name": "Norway", "flag": "🇳🇴", "subunitLabel": "øre", "currencyLabel": "kr",
+    "vatRate": 0.25, "tomorrowPublishHour": 13, "timeZoneID": "Europe/Oslo",
+    "providerID": "elpriset", "baseURL": "https://www.hvakosterstrommen.no/api/v1/prices",
+    "zones": [
+      { "id": "NO4", "description": "NO4 – North", "vatOverride": 0.0, "weatherLat": 69.6492, "weatherLon": 18.9553,
+        "outlook": { "wind": 1.0, "solar": 0, "heating": 0.5, "cooling": 0 }, "bounds": { "minLat": 65.0 } },
+      { "id": "NO3", "description": "NO3 – Central (Trondheim)", "weatherLat": 63.4305, "weatherLon": 10.3951,
+        "outlook": { "wind": 1.0, "solar": 0, "heating": 0.5, "cooling": 0 }, "bounds": { "minLat": 63.0, "maxLat": 65.0 } },
+      { "id": "NO2", "description": "NO2 – South-West (Stavanger)", "weatherLat": 58.1467, "weatherLon": 7.9956,
+        "outlook": { "wind": 1.0, "solar": 0, "heating": 0.5, "cooling": 0 }, "bounds": { "maxLat": 59.3 } },
+      { "id": "NO5", "description": "NO5 – West (Bergen)", "weatherLat": 60.3913, "weatherLon": 5.3221,
+        "outlook": { "wind": 1.0, "solar": 0, "heating": 0.5, "cooling": 0 }, "bounds": { "minLat": 59.3, "maxLat": 63.0, "maxLon": 7.0 } },
+      { "id": "NO1", "description": "NO1 – East (Oslo)", "weatherLat": 59.9139, "weatherLon": 10.7522,
+        "outlook": { "wind": 1.0, "solar": 0, "heating": 0.5, "cooling": 0 } }
+    ]
+  },
+  {
+    "id": "DK", "name": "Denmark", "flag": "🇩🇰", "subunitLabel": "øre", "currencyLabel": "kr",
+    "vatRate": 0.25, "tomorrowPublishHour": 13, "timeZoneID": "Europe/Copenhagen",
+    "providerID": "elpriset", "baseURL": "https://www.elprisenligenu.dk/api/v1/prices",
+    "zones": [
+      { "id": "DK1", "description": "DK1 – West (Jutland)", "weatherLat": 56.1629, "weatherLon": 10.2039,
+        "outlook": { "wind": 1.0, "solar": 0, "heating": 0.5, "cooling": 0 }, "bounds": { "maxLon": 11.0 } },
+      { "id": "DK2", "description": "DK2 – East (Copenhagen)", "weatherLat": 55.6761, "weatherLon": 12.5683,
+        "outlook": { "wind": 1.0, "solar": 0, "heating": 0.5, "cooling": 0 } }
+    ]
+  },
+  {
+    "id": "FI", "name": "Finland", "flag": "🇫🇮", "subunitLabel": "snt", "currencyLabel": "€",
+    "vatRate": 0.255, "tomorrowPublishHour": 14, "timeZoneID": "Europe/Helsinki",
+    "providerID": "spotHinta", "baseURL": "https://api.spot-hinta.fi/TodayAndDayForward",
+    "zones": [
+      { "id": "FI", "description": "FI", "weatherLat": 60.1699, "weatherLon": 24.9384,
+        "outlook": { "wind": 1.0, "solar": 0, "heating": 1.0, "cooling": 0 } }
+    ]
+  },
+  {
+    "id": "EE", "name": "Estonia", "flag": "🇪🇪", "subunitLabel": "senti", "currencyLabel": "€",
+    "vatRate": 0.24, "tomorrowPublishHour": 14, "timeZoneID": "Europe/Helsinki",
+    "providerID": "elering", "baseURL": "https://dashboard.elering.ee/api/nps/price",
+    "zones": [
+      { "id": "EE", "description": "EE", "weatherLat": 59.4370, "weatherLon": 24.7536,
+        "outlook": { "wind": 1.0, "solar": 0, "heating": 0.7, "cooling": 0 } }
+    ]
+  },
+  {
+    "id": "LV", "name": "Latvia", "flag": "🇱🇻", "subunitLabel": "centi", "currencyLabel": "€",
+    "vatRate": 0.21, "tomorrowPublishHour": 14, "timeZoneID": "Europe/Helsinki",
+    "providerID": "elering", "baseURL": "https://dashboard.elering.ee/api/nps/price",
+    "zones": [
+      { "id": "LV", "description": "LV", "weatherLat": 56.9496, "weatherLon": 24.1052,
+        "outlook": { "wind": 1.0, "solar": 0, "heating": 0.7, "cooling": 0 } }
+    ]
+  },
+  {
+    "id": "LT", "name": "Lithuania", "flag": "🇱🇹", "subunitLabel": "ct", "currencyLabel": "€",
+    "vatRate": 0.21, "tomorrowPublishHour": 14, "timeZoneID": "Europe/Helsinki",
+    "providerID": "elering", "baseURL": "https://dashboard.elering.ee/api/nps/price",
+    "zones": [
+      { "id": "LT", "description": "LT", "weatherLat": 54.6872, "weatherLon": 25.2797,
+        "outlook": { "wind": 1.0, "solar": 0, "heating": 0.7, "cooling": 0 } }
+    ]
+  },
+  {
+    "id": "DE", "name": "Germany", "flag": "🇩🇪", "subunitLabel": "ct", "currencyLabel": "€",
+    "vatRate": 0.19, "tomorrowPublishHour": 14, "timeZoneID": "Europe/Berlin",
+    "providerID": "awattar", "baseURL": "https://api.awattar.de/v1/marketdata",
+    "zones": [
+      { "id": "DE", "description": "DE", "weatherLat": 52.5200, "weatherLon": 13.4050,
+        "outlook": { "wind": 1.0, "solar": 0.7, "heating": 0.5, "cooling": 0.2 } }
+    ]
+  },
+  {
+    "id": "AT", "name": "Austria", "flag": "🇦🇹", "subunitLabel": "ct", "currencyLabel": "€",
+    "vatRate": 0.20, "tomorrowPublishHour": 14, "timeZoneID": "Europe/Vienna",
+    "providerID": "awattar", "baseURL": "https://api.awattar.at/v1/marketdata",
+    "zones": [
+      { "id": "AT", "description": "AT", "weatherLat": 48.2082, "weatherLon": 16.3738,
+        "outlook": { "wind": 0.6, "solar": 0.5, "heating": 0.6, "cooling": 0.2 } }
+    ]
+  },
+  {
+    "id": "ES", "name": "Spain", "flag": "🇪🇸", "subunitLabel": "cts", "currencyLabel": "€",
+    "vatRate": 0.21, "tomorrowPublishHour": 14, "timeZoneID": "Europe/Madrid",
+    "providerID": "ree", "baseURL": "https://apidatos.ree.es/en/datos/mercados/precios-mercados-tiempo-real",
+    "zones": [
+      { "id": "ES", "description": "ES", "weatherLat": 40.4168, "weatherLon": -3.7038,
+        "outlook": { "wind": 1.0, "solar": 1.0, "heating": 0.2, "cooling": 0.8 } }
+    ]
+  },
+  {
+    "id": "NL", "name": "Netherlands", "flag": "🇳🇱", "subunitLabel": "ct", "currencyLabel": "€",
+    "vatRate": 0.21, "tomorrowPublishHour": 15, "timeZoneID": "Europe/Amsterdam",
+    "providerID": "energyZero", "baseURL": "https://api.energyzero.nl/v1/energyprices",
+    "zones": [
+      { "id": "NL", "description": "NL", "weatherLat": 52.3676, "weatherLon": 4.9041,
+        "outlook": { "wind": 1.0, "solar": 0.6, "heating": 0.5, "cooling": 0.1 } }
+    ]
+  },
+  {
+    "id": "GB", "name": "United Kingdom", "flag": "🇬🇧", "subunitLabel": "p", "currencyLabel": "£",
+    "vatRate": 0.05, "tomorrowPublishHour": 16, "timeZoneID": "Europe/London",
+    "providerID": "octopus", "baseURL": "https://api.octopus.energy/v1",
+    "providerParams": { "product": "AGILE-24-10-01", "region": "C" },
+    "zones": [
+      { "id": "GB", "description": "GB", "weatherLat": 51.5074, "weatherLon": -0.1278,
+        "outlook": { "wind": 1.0, "solar": 0.4, "heating": 0.5, "cooling": 0.1 } }
+    ]
+  }
+]
