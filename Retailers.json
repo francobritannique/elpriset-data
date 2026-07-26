@@ -541,7 +541,7 @@
   {
     "id": "de-tibber",
     "name": "Tibber",
-    "paslagOerePerKWh": 2.15,
+    "paslagOerePerKWh": 14.5,
     "monthlyFeeSEK": 5.99,
     "vatRate": 0.19,
     "brandColor": "#FC0080",
