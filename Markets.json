@@ -468,6 +468,124 @@
     ]
   },
   {
+    "id": "FR",
+    "name": "France",
+    "flag": "🇫🇷",
+    "subunitLabel": "ct",
+    "currencyLabel": "€",
+    "vatRate": 0.2,
+    "tomorrowPublishHour": 14,
+    "timeZoneID": "Europe/Paris",
+    "providerID": "energyCharts",
+    "baseURL": "https://api.energy-charts.info/price",
+    "providerParams": {
+      "bzn": "FR"
+    },
+    "zones": [
+      {
+        "id": "FR",
+        "description": "France",
+        "weatherLat": 48.8566,
+        "weatherLon": 2.3522,
+        "outlook": {
+          "wind": 0.8,
+          "solar": 0.5,
+          "heating": 0.6,
+          "cooling": 0.2
+        }
+      }
+    ]
+  },
+  {
+    "id": "IT",
+    "name": "Italy",
+    "flag": "🇮🇹",
+    "subunitLabel": "ct",
+    "currencyLabel": "€",
+    "vatRate": 0.1,
+    "tomorrowPublishHour": 14,
+    "timeZoneID": "Europe/Rome",
+    "providerID": "energyCharts",
+    "baseURL": "https://api.energy-charts.info/price",
+    "providerParams": {
+      "bzn": "IT-North"
+    },
+    "zones": [
+      {
+        "id": "IT",
+        "description": "Italy (North)",
+        "weatherLat": 45.4642,
+        "weatherLon": 9.19,
+        "outlook": {
+          "wind": 0.4,
+          "solar": 0.7,
+          "heating": 0.3,
+          "cooling": 0.5
+        }
+      }
+    ]
+  },
+  {
+    "id": "CH",
+    "name": "Switzerland",
+    "flag": "🇨🇭",
+    "subunitLabel": "Rp.",
+    "currencyLabel": "Fr.",
+    "vatRate": 0.081,
+    "tomorrowPublishHour": 14,
+    "timeZoneID": "Europe/Zurich",
+    "providerID": "energyCharts",
+    "baseURL": "https://api.energy-charts.info/price",
+    "providerParams": {
+      "bzn": "CH",
+      "currency": "CHF"
+    },
+    "zones": [
+      {
+        "id": "CH",
+        "description": "Switzerland",
+        "weatherLat": 47.3769,
+        "weatherLon": 8.5417,
+        "outlook": {
+          "wind": 0.2,
+          "solar": 0.4,
+          "heating": 0.5,
+          "cooling": 0.2
+        }
+      }
+    ]
+  },
+  {
+    "id": "PL",
+    "name": "Poland",
+    "flag": "🇵🇱",
+    "subunitLabel": "gr",
+    "currencyLabel": "zł",
+    "vatRate": 0.23,
+    "tomorrowPublishHour": 14,
+    "timeZoneID": "Europe/Warsaw",
+    "providerID": "energyCharts",
+    "baseURL": "https://api.energy-charts.info/price",
+    "providerParams": {
+      "bzn": "PL",
+      "currency": "PLN"
+    },
+    "zones": [
+      {
+        "id": "PL",
+        "description": "Poland",
+        "weatherLat": 52.2297,
+        "weatherLon": 21.0122,
+        "outlook": {
+          "wind": 0.7,
+          "solar": 0.4,
+          "heating": 0.6,
+          "cooling": 0.1
+        }
+      }
+    ]
+  },
+  {
     "id": "BE",
     "name": "Belgium",
     "flag": "🇧🇪",
@@ -492,6 +610,299 @@
           "solar": 0.6,
           "heating": 0.5,
           "cooling": 0.1
+        }
+      }
+    ]
+  },
+  {
+    "id": "PT",
+    "name": "Portugal",
+    "flag": "🇵🇹",
+    "subunitLabel": "ct",
+    "currencyLabel": "€",
+    "vatRate": 0.23,
+    "tomorrowPublishHour": 14,
+    "timeZoneID": "Europe/Lisbon",
+    "providerID": "energyCharts",
+    "baseURL": "https://api.energy-charts.info/price",
+    "providerParams": {
+      "bzn": "PT"
+    },
+    "zones": [
+      {
+        "id": "PT",
+        "description": "Portugal",
+        "weatherLat": 38.7223,
+        "weatherLon": -9.1393,
+        "outlook": {
+          "wind": 0.7,
+          "solar": 0.7,
+          "heating": 0.3,
+          "cooling": 0.3
+        }
+      }
+    ]
+  },
+  {
+    "id": "GR",
+    "name": "Greece",
+    "flag": "🇬🇷",
+    "subunitLabel": "ct",
+    "currencyLabel": "€",
+    "vatRate": 0.06,
+    "tomorrowPublishHour": 14,
+    "timeZoneID": "Europe/Athens",
+    "providerID": "energyCharts",
+    "baseURL": "https://api.energy-charts.info/price",
+    "providerParams": {
+      "bzn": "GR"
+    },
+    "zones": [
+      {
+        "id": "GR",
+        "description": "Greece",
+        "weatherLat": 37.9838,
+        "weatherLon": 23.7275,
+        "outlook": {
+          "wind": 0.5,
+          "solar": 0.7,
+          "heating": 0.3,
+          "cooling": 0.6
+        }
+      }
+    ]
+  },
+  {
+    "id": "CZ",
+    "name": "Czechia",
+    "flag": "🇨🇿",
+    "subunitLabel": "h",
+    "currencyLabel": "Kč",
+    "vatRate": 0.21,
+    "tomorrowPublishHour": 14,
+    "timeZoneID": "Europe/Prague",
+    "providerID": "energyCharts",
+    "baseURL": "https://api.energy-charts.info/price",
+    "providerParams": {
+      "bzn": "CZ",
+      "currency": "CZK"
+    },
+    "zones": [
+      {
+        "id": "CZ",
+        "description": "Czechia",
+        "weatherLat": 50.0755,
+        "weatherLon": 14.4378,
+        "outlook": {
+          "wind": 0.6,
+          "solar": 0.5,
+          "heating": 0.6,
+          "cooling": 0.2
+        }
+      }
+    ]
+  },
+  {
+    "id": "SK",
+    "name": "Slovakia",
+    "flag": "🇸🇰",
+    "subunitLabel": "ct",
+    "currencyLabel": "€",
+    "vatRate": 0.19,
+    "tomorrowPublishHour": 14,
+    "timeZoneID": "Europe/Bratislava",
+    "providerID": "energyCharts",
+    "baseURL": "https://api.energy-charts.info/price",
+    "providerParams": {
+      "bzn": "SK"
+    },
+    "zones": [
+      {
+        "id": "SK",
+        "description": "Slovakia",
+        "weatherLat": 48.1486,
+        "weatherLon": 17.1077,
+        "outlook": {
+          "wind": 0.5,
+          "solar": 0.5,
+          "heating": 0.6,
+          "cooling": 0.2
+        }
+      }
+    ]
+  },
+  {
+    "id": "SI",
+    "name": "Slovenia",
+    "flag": "🇸🇮",
+    "subunitLabel": "ct",
+    "currencyLabel": "€",
+    "vatRate": 0.22,
+    "tomorrowPublishHour": 14,
+    "timeZoneID": "Europe/Ljubljana",
+    "providerID": "energyCharts",
+    "baseURL": "https://api.energy-charts.info/price",
+    "providerParams": {
+      "bzn": "SI"
+    },
+    "zones": [
+      {
+        "id": "SI",
+        "description": "Slovenia",
+        "weatherLat": 46.0569,
+        "weatherLon": 14.5058,
+        "outlook": {
+          "wind": 0.3,
+          "solar": 0.5,
+          "heating": 0.5,
+          "cooling": 0.3
+        }
+      }
+    ]
+  },
+  {
+    "id": "HR",
+    "name": "Croatia",
+    "flag": "🇭🇷",
+    "subunitLabel": "ct",
+    "currencyLabel": "€",
+    "vatRate": 0.13,
+    "tomorrowPublishHour": 14,
+    "timeZoneID": "Europe/Zagreb",
+    "providerID": "energyCharts",
+    "baseURL": "https://api.energy-charts.info/price",
+    "providerParams": {
+      "bzn": "HR"
+    },
+    "zones": [
+      {
+        "id": "HR",
+        "description": "Croatia",
+        "weatherLat": 45.815,
+        "weatherLon": 15.9819,
+        "outlook": {
+          "wind": 0.4,
+          "solar": 0.5,
+          "heating": 0.5,
+          "cooling": 0.3
+        }
+      }
+    ]
+  },
+  {
+    "id": "HU",
+    "name": "Hungary",
+    "flag": "🇭🇺",
+    "subunitLabel": "f",
+    "currencyLabel": "Ft",
+    "vatRate": 0.27,
+    "tomorrowPublishHour": 14,
+    "timeZoneID": "Europe/Budapest",
+    "providerID": "energyCharts",
+    "baseURL": "https://api.energy-charts.info/price",
+    "providerParams": {
+      "bzn": "HU",
+      "currency": "HUF"
+    },
+    "zones": [
+      {
+        "id": "HU",
+        "description": "Hungary",
+        "weatherLat": 47.4979,
+        "weatherLon": 19.0402,
+        "outlook": {
+          "wind": 0.5,
+          "solar": 0.5,
+          "heating": 0.6,
+          "cooling": 0.3
+        }
+      }
+    ]
+  },
+  {
+    "id": "RO",
+    "name": "Romania",
+    "flag": "🇷🇴",
+    "subunitLabel": "bani",
+    "currencyLabel": "lei",
+    "vatRate": 0.21,
+    "tomorrowPublishHour": 14,
+    "timeZoneID": "Europe/Bucharest",
+    "providerID": "energyCharts",
+    "baseURL": "https://api.energy-charts.info/price",
+    "providerParams": {
+      "bzn": "RO",
+      "currency": "RON"
+    },
+    "zones": [
+      {
+        "id": "RO",
+        "description": "Romania",
+        "weatherLat": 44.4268,
+        "weatherLon": 26.1025,
+        "outlook": {
+          "wind": 0.6,
+          "solar": 0.5,
+          "heating": 0.5,
+          "cooling": 0.3
+        }
+      }
+    ]
+  },
+  {
+    "id": "BG",
+    "name": "Bulgaria",
+    "flag": "🇧🇬",
+    "subunitLabel": "ct",
+    "currencyLabel": "€",
+    "vatRate": 0.2,
+    "tomorrowPublishHour": 14,
+    "timeZoneID": "Europe/Sofia",
+    "providerID": "energyCharts",
+    "baseURL": "https://api.energy-charts.info/price",
+    "providerParams": {
+      "bzn": "BG"
+    },
+    "zones": [
+      {
+        "id": "BG",
+        "description": "Bulgaria",
+        "weatherLat": 42.6977,
+        "weatherLon": 23.3219,
+        "outlook": {
+          "wind": 0.5,
+          "solar": 0.5,
+          "heating": 0.5,
+          "cooling": 0.3
+        }
+      }
+    ]
+  },
+  {
+    "id": "IE",
+    "name": "Ireland",
+    "flag": "🇮🇪",
+    "subunitLabel": "c",
+    "currencyLabel": "€",
+    "vatRate": 0.09,
+    "tomorrowPublishHour": 12,
+    "timeZoneID": "Europe/Dublin",
+    "providerID": "semopx",
+    "baseURL": "https://reports.semopx.com/api/v1/documents/static-reports",
+    "providerParams": {
+      "market": "ROI-DA"
+    },
+    "zones": [
+      {
+        "id": "IE",
+        "description": "Ireland",
+        "weatherLat": 53.3498,
+        "weatherLon": -6.2603,
+        "outlook": {
+          "wind": 1.0,
+          "solar": 0.2,
+          "heating": 0.5,
+          "cooling": 0.05
         }
       }
     ]

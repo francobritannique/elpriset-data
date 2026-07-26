@@ -1022,5 +1022,82 @@
     "lastUpdated": "2026-07",
     "market": "BE",
     "source": "eneco.be"
+  },
+  {
+    "id": "pt-coopernico",
+    "name": "Coopérnico",
+    "paslagOerePerKWh": 0.9,
+    "monthlyFeeSEK": 0,
+    "vatRate": 0.23,
+    "brandColor": "#43A047",
+    "lastUpdated": "2026-07",
+    "market": "PT",
+    "source": "coopernico.org"
+  },
+  {
+    "id": "cz-enerspot",
+    "name": "Enerspot",
+    "paslagOerePerKWh": 30,
+    "monthlyFeeSEK": 178,
+    "vatRate": 0.21,
+    "brandColor": "#00954C",
+    "lastUpdated": "2026-07",
+    "market": "CZ",
+    "source": "enerspot.cz"
+  },
+  {
+    "id": "cz-bezdodavatele",
+    "name": "bezDodavatele",
+    "paslagOerePerKWh": 39,
+    "monthlyFeeSEK": 99,
+    "vatRate": 0.21,
+    "brandColor": "#6ABF4B",
+    "lastUpdated": "2026-07",
+    "market": "CZ",
+    "source": "bezdodavatele.cz"
+  },
+  {
+    "id": "sk-vse",
+    "name": "VSE",
+    "paslagOerePerKWh": 2.5,
+    "monthlyFeeSEK": 0,
+    "vatRate": 0.19,
+    "brandColor": "#00AAE1",
+    "lastUpdated": "2026-07",
+    "market": "SK",
+    "source": "vse.sk"
+  },
+  {
+    "id": "si-gen-i",
+    "name": "GEN-I",
+    "paslagOerePerKWh": 1.2,
+    "monthlyFeeSEK": 2.97,
+    "vatRate": 0.22,
+    "brandColor": "#E30613",
+    "lastUpdated": "2026-07",
+    "market": "SI",
+    "source": "gen-i.si"
+  },
+  {
+    "id": "si-bisol",
+    "name": "BISOL Energija",
+    "paslagOerePerKWh": 1.3,
+    "monthlyFeeSEK": 1.99,
+    "vatRate": 0.22,
+    "brandColor": "#8CC63F",
+    "lastUpdated": "2026-07",
+    "market": "SI",
+    "source": "bisol-energija.si"
+  },
+  {
+    "id": "ro-eon",
+    "name": "E.ON",
+    "paslagOerePerKWh": 39,
+    "monthlyFeeSEK": 0,
+    "vatRate": 0.21,
+    "brandColor": "#E2001A",
+    "lastUpdated": "2026-07",
+    "market": "RO",
+    "source": "eon.ro"
   }
 ]
