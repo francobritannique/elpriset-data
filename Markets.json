@@ -529,15 +529,16 @@
     "id": "CH",
     "name": "Switzerland",
     "flag": "🇨🇭",
-    "subunitLabel": "ct",
-    "currencyLabel": "€",
+    "subunitLabel": "Rp.",
+    "currencyLabel": "Fr.",
     "vatRate": 0.081,
     "tomorrowPublishHour": 14,
     "timeZoneID": "Europe/Zurich",
     "providerID": "energyCharts",
     "baseURL": "https://api.energy-charts.info/price",
     "providerParams": {
-      "bzn": "CH"
+      "bzn": "CH",
+      "currency": "CHF"
     },
     "zones": [
       {
@@ -558,15 +559,16 @@
     "id": "PL",
     "name": "Poland",
     "flag": "🇵🇱",
-    "subunitLabel": "ct",
-    "currencyLabel": "€",
+    "subunitLabel": "gr",
+    "currencyLabel": "zł",
     "vatRate": 0.23,
     "tomorrowPublishHour": 14,
     "timeZoneID": "Europe/Warsaw",
     "providerID": "energyCharts",
     "baseURL": "https://api.energy-charts.info/price",
     "providerParams": {
-      "bzn": "PL"
+      "bzn": "PL",
+      "currency": "PLN"
     },
     "zones": [
       {
