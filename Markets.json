@@ -468,6 +468,122 @@
     ]
   },
   {
+    "id": "FR",
+    "name": "France",
+    "flag": "🇫🇷",
+    "subunitLabel": "ct",
+    "currencyLabel": "€",
+    "vatRate": 0.2,
+    "tomorrowPublishHour": 14,
+    "timeZoneID": "Europe/Paris",
+    "providerID": "energyCharts",
+    "baseURL": "https://api.energy-charts.info/price",
+    "providerParams": {
+      "bzn": "FR"
+    },
+    "zones": [
+      {
+        "id": "FR",
+        "description": "France",
+        "weatherLat": 48.8566,
+        "weatherLon": 2.3522,
+        "outlook": {
+          "wind": 0.8,
+          "solar": 0.5,
+          "heating": 0.6,
+          "cooling": 0.2
+        }
+      }
+    ]
+  },
+  {
+    "id": "IT",
+    "name": "Italy",
+    "flag": "🇮🇹",
+    "subunitLabel": "ct",
+    "currencyLabel": "€",
+    "vatRate": 0.1,
+    "tomorrowPublishHour": 14,
+    "timeZoneID": "Europe/Rome",
+    "providerID": "energyCharts",
+    "baseURL": "https://api.energy-charts.info/price",
+    "providerParams": {
+      "bzn": "IT-North"
+    },
+    "zones": [
+      {
+        "id": "IT",
+        "description": "Italy (North)",
+        "weatherLat": 45.4642,
+        "weatherLon": 9.19,
+        "outlook": {
+          "wind": 0.4,
+          "solar": 0.7,
+          "heating": 0.3,
+          "cooling": 0.5
+        }
+      }
+    ]
+  },
+  {
+    "id": "CH",
+    "name": "Switzerland",
+    "flag": "🇨🇭",
+    "subunitLabel": "ct",
+    "currencyLabel": "€",
+    "vatRate": 0.081,
+    "tomorrowPublishHour": 14,
+    "timeZoneID": "Europe/Zurich",
+    "providerID": "energyCharts",
+    "baseURL": "https://api.energy-charts.info/price",
+    "providerParams": {
+      "bzn": "CH"
+    },
+    "zones": [
+      {
+        "id": "CH",
+        "description": "Switzerland",
+        "weatherLat": 47.3769,
+        "weatherLon": 8.5417,
+        "outlook": {
+          "wind": 0.2,
+          "solar": 0.4,
+          "heating": 0.5,
+          "cooling": 0.2
+        }
+      }
+    ]
+  },
+  {
+    "id": "PL",
+    "name": "Poland",
+    "flag": "🇵🇱",
+    "subunitLabel": "ct",
+    "currencyLabel": "€",
+    "vatRate": 0.23,
+    "tomorrowPublishHour": 14,
+    "timeZoneID": "Europe/Warsaw",
+    "providerID": "energyCharts",
+    "baseURL": "https://api.energy-charts.info/price",
+    "providerParams": {
+      "bzn": "PL"
+    },
+    "zones": [
+      {
+        "id": "PL",
+        "description": "Poland",
+        "weatherLat": 52.2297,
+        "weatherLon": 21.0122,
+        "outlook": {
+          "wind": 0.7,
+          "solar": 0.4,
+          "heating": 0.6,
+          "cooling": 0.1
+        }
+      }
+    ]
+  },
+  {
     "id": "BE",
     "name": "Belgium",
     "flag": "🇧🇪",
