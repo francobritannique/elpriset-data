@@ -978,5 +978,49 @@
     "market": "ES",
     "source": "curenergia.es",
     "priceSeriesID": "ES_PVPC"
+  },
+  {
+    "id": "be-luminus",
+    "name": "Luminus (Dynamic)",
+    "paslagOerePerKWh": 2.13,
+    "monthlyFeeSEK": 6.25,
+    "vatRate": 0.06,
+    "brandColor": "#E2001A",
+    "lastUpdated": "2026-07",
+    "market": "BE",
+    "source": "edfluminus.be"
+  },
+  {
+    "id": "be-bolt",
+    "name": "Bolt",
+    "paslagOerePerKWh": 0.0,
+    "monthlyFeeSEK": 9.99,
+    "vatRate": 0.06,
+    "brandColor": "#1A1A1A",
+    "lastUpdated": "2026-07",
+    "market": "BE",
+    "source": "boltenergie.be"
+  },
+  {
+    "id": "be-engie",
+    "name": "Engie (Dynamic)",
+    "paslagOerePerKWh": 0.5,
+    "monthlyFeeSEK": 6.0,
+    "vatRate": 0.06,
+    "brandColor": "#0082BA",
+    "lastUpdated": "2026-07",
+    "market": "BE",
+    "source": "engie.be"
+  },
+  {
+    "id": "be-eneco",
+    "name": "Eneco (Zon & Wind Dynamisch)",
+    "paslagOerePerKWh": 1.5,
+    "monthlyFeeSEK": 7.0,
+    "vatRate": 0.06,
+    "brandColor": "#E2001A",
+    "lastUpdated": "2026-07",
+    "market": "BE",
+    "source": "eneco.be"
   }
 ]
