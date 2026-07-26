@@ -877,34 +877,5 @@
         }
       }
     ]
-  },
-  {
-    "id": "IE",
-    "name": "Ireland",
-    "flag": "🇮🇪",
-    "subunitLabel": "c",
-    "currencyLabel": "€",
-    "vatRate": 0.09,
-    "tomorrowPublishHour": 12,
-    "timeZoneID": "Europe/Dublin",
-    "providerID": "semopx",
-    "baseURL": "https://reports.semopx.com/api/v1/documents/static-reports",
-    "providerParams": {
-      "market": "ROI-DA"
-    },
-    "zones": [
-      {
-        "id": "IE",
-        "description": "Ireland",
-        "weatherLat": 53.3498,
-        "weatherLon": -6.2603,
-        "outlook": {
-          "wind": 1.0,
-          "solar": 0.2,
-          "heating": 0.5,
-          "cooling": 0.05
-        }
-      }
-    ]
   }
 ]
