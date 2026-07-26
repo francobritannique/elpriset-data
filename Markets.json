@@ -334,6 +334,32 @@
     ]
   },
   {
+    "id": "LU",
+    "name": "Luxembourg",
+    "flag": "🇱🇺",
+    "subunitLabel": "ct",
+    "currencyLabel": "€",
+    "vatRate": 0.08,
+    "tomorrowPublishHour": 14,
+    "timeZoneID": "Europe/Luxembourg",
+    "providerID": "awattar",
+    "baseURL": "https://api.awattar.de/v1/marketdata",
+    "zones": [
+      {
+        "id": "LU",
+        "description": "LU",
+        "weatherLat": 49.6116,
+        "weatherLon": 6.1319,
+        "outlook": {
+          "wind": 1.0,
+          "solar": 0.7,
+          "heating": 0.5,
+          "cooling": 0.2
+        }
+      }
+    ]
+  },
+  {
     "id": "AT",
     "name": "Austria",
     "flag": "🇦🇹",
