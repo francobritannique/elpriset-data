@@ -547,7 +547,20 @@
     "brandColor": "#FC0080",
     "lastUpdated": "2026-07",
     "market": "DE",
-    "source": "tibber.com"
+    "source": "tibber.com",
+    "pricingProviderID": "tibberApi",
+    "providerParams": {
+      "endpoint": "https://api.tibber.com/v1-beta/gql"
+    },
+    "parameters": [
+      {
+        "key": "token",
+        "label": "Tibber API token",
+        "kind": "secret",
+        "required": true,
+        "help": "tibber.com → Settings → Tibber Developer → generate an access token"
+      }
+    ]
   },
   {
     "id": "de-awattar",
