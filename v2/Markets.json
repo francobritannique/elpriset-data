@@ -1,0 +1,615 @@
+[
+  {
+    "id": "SE",
+    "name": "Sweden",
+    "flag": "🇸🇪",
+    "subunitLabel": "öre",
+    "currencyLabel": "kr",
+    "vatRate": 0.25,
+    "tomorrowPublishHour": 13,
+    "timeZoneID": "Europe/Stockholm",
+    "providerID": "elpriset",
+    "baseURL": "https://www.elprisetjustnu.se/api/v1/prices",
+    "zones": [
+      {
+        "id": "SE1",
+        "description": "SE1 – North",
+        "weatherLat": 65.5848,
+        "weatherLon": 22.1547,
+        "outlook": {
+          "wind": 1.0,
+          "solar": 0,
+          "heating": 0.5,
+          "cooling": 0
+        },
+        "bounds": {
+          "minLat": 64.65,
+          "minLon": 17.3
+        }
+      },
+      {
+        "id": "SE2",
+        "description": "SE2 – North-Central",
+        "weatherLat": 62.3908,
+        "weatherLon": 17.3069,
+        "outlook": {
+          "wind": 1.0,
+          "solar": 0,
+          "heating": 0.5,
+          "cooling": 0
+        },
+        "bounds": {
+          "minLat": 61.0
+        }
+      },
+      {
+        "id": "SE3",
+        "description": "SE3 – Central (Stockholm)",
+        "weatherLat": 59.3293,
+        "weatherLon": 18.0686,
+        "outlook": {
+          "wind": 1.0,
+          "solar": 0,
+          "heating": 1.0,
+          "cooling": 0
+        },
+        "bounds": {
+          "minLat": 57.0,
+          "maxLat": 61.0
+        }
+      },
+      {
+        "id": "SE4",
+        "description": "SE4 – South (Malmö)",
+        "weatherLat": 55.605,
+        "weatherLon": 13.0038,
+        "outlook": {
+          "wind": 1.0,
+          "solar": 0,
+          "heating": 1.0,
+          "cooling": 0
+        }
+      }
+    ],
+    "zoneRules": [
+      {
+        "zone": "SE3",
+        "bounds": {
+          "minLat": 56.85,
+          "maxLat": 58.0,
+          "minLon": 18.0,
+          "maxLon": 19.5
+        }
+      },
+      {
+        "zone": "SE4",
+        "bounds": {
+          "minLat": 57.0,
+          "maxLat": 57.27,
+          "minLon": 13.7,
+          "maxLon": 14.4
+        }
+      },
+      {
+        "zone": "SE4",
+        "bounds": {
+          "minLat": 57.0,
+          "maxLat": 57.19,
+          "minLon": 14.4,
+          "maxLon": 15.65
+        }
+      },
+      {
+        "zone": "SE4",
+        "bounds": {
+          "minLat": 57.0,
+          "maxLat": 57.4,
+          "minLon": 16.0,
+          "maxLon": 17.2
+        }
+      },
+      {
+        "zone": "SE3",
+        "bounds": {
+          "minLat": 61.0,
+          "maxLat": 61.55,
+          "maxLon": 15.0
+        }
+      },
+      {
+        "zone": "SE3",
+        "bounds": {
+          "minLat": 61.0,
+          "maxLat": 61.3,
+          "minLon": 15.0,
+          "maxLon": 15.4
+        }
+      },
+      {
+        "zone": "SE3",
+        "bounds": {
+          "minLat": 61.0,
+          "maxLat": 61.25,
+          "minLon": 15.4,
+          "maxLon": 15.6
+        }
+      },
+      {
+        "zone": "SE3",
+        "bounds": {
+          "minLat": 61.0,
+          "maxLat": 61.2,
+          "minLon": 15.6,
+          "maxLon": 15.68
+        }
+      },
+      {
+        "zone": "SE3",
+        "bounds": {
+          "minLat": 61.55,
+          "maxLat": 61.95,
+          "maxLon": 13.6
+        }
+      },
+      {
+        "zone": "SE3",
+        "bounds": {
+          "minLat": 61.95,
+          "maxLat": 62.3,
+          "maxLon": 12.6
+        }
+      },
+      {
+        "zone": "SE2",
+        "bounds": {
+          "minLat": 60.84,
+          "maxLat": 61.0,
+          "minLon": 16.3,
+          "maxLon": 16.95
+        }
+      }
+    ]
+  },
+  {
+    "id": "NO",
+    "name": "Norway",
+    "flag": "🇳🇴",
+    "subunitLabel": "øre",
+    "currencyLabel": "kr",
+    "vatRate": 0.25,
+    "tomorrowPublishHour": 13,
+    "timeZoneID": "Europe/Oslo",
+    "providerID": "elpriset",
+    "baseURL": "https://www.hvakosterstrommen.no/api/v1/prices",
+    "zones": [
+      {
+        "id": "NO4",
+        "description": "NO4 – North",
+        "vatOverride": 0.0,
+        "weatherLat": 69.6492,
+        "weatherLon": 18.9553,
+        "outlook": {
+          "wind": 1.0,
+          "solar": 0,
+          "heating": 0.5,
+          "cooling": 0
+        },
+        "bounds": {
+          "minLat": 65.0
+        }
+      },
+      {
+        "id": "NO3",
+        "description": "NO3 – Central (Trondheim)",
+        "weatherLat": 63.4305,
+        "weatherLon": 10.3951,
+        "outlook": {
+          "wind": 1.0,
+          "solar": 0,
+          "heating": 0.5,
+          "cooling": 0
+        },
+        "bounds": {
+          "minLat": 63.0,
+          "maxLat": 65.0
+        }
+      },
+      {
+        "id": "NO2",
+        "description": "NO2 – South-West (Stavanger)",
+        "weatherLat": 58.1467,
+        "weatherLon": 7.9956,
+        "outlook": {
+          "wind": 1.0,
+          "solar": 0,
+          "heating": 0.5,
+          "cooling": 0
+        },
+        "bounds": {
+          "maxLat": 59.3,
+          "maxLon": 10.62
+        }
+      },
+      {
+        "id": "NO5",
+        "description": "NO5 – West (Bergen)",
+        "weatherLat": 60.3913,
+        "weatherLon": 5.3221,
+        "outlook": {
+          "wind": 1.0,
+          "solar": 0,
+          "heating": 0.5,
+          "cooling": 0
+        },
+        "bounds": {
+          "minLat": 59.3,
+          "maxLat": 63.0,
+          "maxLon": 7.0
+        }
+      },
+      {
+        "id": "NO1",
+        "description": "NO1 – East (Oslo)",
+        "weatherLat": 59.9139,
+        "weatherLon": 10.7522,
+        "outlook": {
+          "wind": 1.0,
+          "solar": 0,
+          "heating": 0.5,
+          "cooling": 0
+        }
+      }
+    ],
+    "zoneRules": [
+      {
+        "zone": "NO3",
+        "bounds": {
+          "minLat": 65.0,
+          "maxLat": 65.15,
+          "maxLon": 12.0
+        }
+      },
+      {
+        "zone": "NO4",
+        "bounds": {
+          "minLat": 64.6,
+          "maxLat": 65.0,
+          "minLon": 12.6
+        }
+      },
+      {
+        "zone": "NO4",
+        "bounds": {
+          "minLat": 64.05,
+          "maxLat": 64.6,
+          "minLon": 13.15
+        }
+      },
+      {
+        "zone": "NO3",
+        "bounds": {
+          "minLat": 61.75,
+          "maxLat": 63.0,
+          "maxLon": 9.9
+        }
+      },
+      {
+        "zone": "NO3",
+        "bounds": {
+          "minLat": 61.3,
+          "maxLat": 61.75,
+          "maxLon": 6.6
+        }
+      },
+      {
+        "zone": "NO3",
+        "bounds": {
+          "minLat": 61.135,
+          "maxLat": 61.3,
+          "maxLon": 6.15
+        }
+      },
+      {
+        "zone": "NO3",
+        "bounds": {
+          "minLat": 61.085,
+          "maxLat": 61.135,
+          "maxLon": 5.6
+        }
+      },
+      {
+        "zone": "NO3",
+        "bounds": {
+          "minLat": 61.066,
+          "maxLat": 61.085,
+          "minLon": 5.33,
+          "maxLon": 5.5
+        }
+      },
+      {
+        "zone": "NO3",
+        "bounds": {
+          "minLat": 61.02,
+          "maxLat": 61.085,
+          "maxLon": 4.98
+        }
+      },
+      {
+        "zone": "NO3",
+        "bounds": {
+          "minLat": 60.98,
+          "maxLat": 61.02,
+          "maxLon": 4.8
+        }
+      },
+      {
+        "zone": "NO3",
+        "bounds": {
+          "minLat": 62.4,
+          "maxLat": 62.7,
+          "minLon": 9.9,
+          "maxLon": 10.5
+        }
+      },
+      {
+        "zone": "NO3",
+        "bounds": {
+          "minLat": 62.7,
+          "maxLat": 63.0,
+          "minLon": 9.9,
+          "maxLon": 11.3
+        }
+      },
+      {
+        "zone": "NO3",
+        "bounds": {
+          "minLat": 62.745,
+          "maxLat": 63.0,
+          "minLon": 11.3,
+          "maxLon": 11.7
+        }
+      },
+      {
+        "zone": "NO3",
+        "bounds": {
+          "minLat": 62.825,
+          "maxLat": 63.0,
+          "minLon": 11.7,
+          "maxLon": 12.2
+        }
+      },
+      {
+        "zone": "NO5",
+        "bounds": {
+          "minLat": 60.8,
+          "maxLat": 61.7,
+          "minLon": 7.0,
+          "maxLon": 8.1
+        }
+      },
+      {
+        "zone": "NO5",
+        "bounds": {
+          "minLat": 60.15,
+          "maxLat": 60.36,
+          "minLon": 7.0,
+          "maxLon": 9.15
+        }
+      },
+      {
+        "zone": "NO5",
+        "bounds": {
+          "minLat": 60.36,
+          "maxLat": 60.5,
+          "minLon": 7.0,
+          "maxLon": 9.82
+        }
+      },
+      {
+        "zone": "NO5",
+        "bounds": {
+          "minLat": 60.5,
+          "maxLat": 60.76,
+          "minLon": 7.0,
+          "maxLon": 9.4
+        }
+      },
+      {
+        "zone": "NO5",
+        "bounds": {
+          "minLat": 60.76,
+          "maxLat": 60.8,
+          "minLon": 7.0,
+          "maxLon": 9.18
+        }
+      },
+      {
+        "zone": "NO5",
+        "bounds": {
+          "minLat": 60.8,
+          "maxLat": 60.84,
+          "minLon": 7.0,
+          "maxLon": 9.05
+        }
+      },
+      {
+        "zone": "NO5",
+        "bounds": {
+          "minLat": 60.84,
+          "maxLat": 60.95,
+          "minLon": 7.0,
+          "maxLon": 8.95
+        }
+      },
+      {
+        "zone": "NO2",
+        "bounds": {
+          "minLat": 59.3,
+          "maxLat": 59.95,
+          "minLon": 4.5,
+          "maxLon": 9.05
+        }
+      },
+      {
+        "zone": "NO5",
+        "bounds": {
+          "minLat": 60.12,
+          "maxLat": 60.17,
+          "minLon": 5.29,
+          "maxLon": 5.53
+        }
+      },
+      {
+        "zone": "NO2",
+        "bounds": {
+          "minLat": 59.95,
+          "maxLat": 60.17,
+          "minLon": 4.9,
+          "maxLon": 6.15
+        }
+      },
+      {
+        "zone": "NO2",
+        "bounds": {
+          "minLat": 60.17,
+          "maxLat": 60.31,
+          "minLon": 5.59,
+          "maxLon": 5.94
+        }
+      },
+      {
+        "zone": "NO2",
+        "bounds": {
+          "minLat": 59.95,
+          "maxLat": 60.15,
+          "minLon": 6.15,
+          "maxLon": 8.2
+        }
+      },
+      {
+        "zone": "NO2",
+        "bounds": {
+          "minLat": 59.95,
+          "maxLat": 60.15,
+          "minLon": 8.2,
+          "maxLon": 9.05
+        }
+      },
+      {
+        "zone": "NO2",
+        "bounds": {
+          "minLat": 59.3,
+          "maxLat": 59.72,
+          "minLon": 9.05,
+          "maxLon": 9.42
+        }
+      },
+      {
+        "zone": "NO2",
+        "bounds": {
+          "minLat": 59.3,
+          "maxLat": 59.62,
+          "minLon": 9.85,
+          "maxLon": 10.36
+        }
+      },
+      {
+        "zone": "NO2",
+        "bounds": {
+          "minLat": 59.3,
+          "maxLat": 59.48,
+          "minLon": 10.36,
+          "maxLon": 10.56
+        }
+      }
+    ]
+  },
+  {
+    "id": "DK",
+    "name": "Denmark",
+    "flag": "🇩🇰",
+    "subunitLabel": "øre",
+    "currencyLabel": "kr",
+    "vatRate": 0.25,
+    "tomorrowPublishHour": 13,
+    "timeZoneID": "Europe/Copenhagen",
+    "providerID": "elpriset",
+    "baseURL": "https://www.elprisenligenu.dk/api/v1/prices",
+    "zones": [
+      {
+        "id": "DK1",
+        "description": "DK1 – West (Jutland)",
+        "weatherLat": 56.1629,
+        "weatherLon": 10.2039,
+        "outlook": {
+          "wind": 1.0,
+          "solar": 0,
+          "heating": 0.5,
+          "cooling": 0
+        }
+      },
+      {
+        "id": "DK2",
+        "description": "DK2 – East (Copenhagen)",
+        "weatherLat": 55.6761,
+        "weatherLon": 12.5683,
+        "outlook": {
+          "wind": 1.0,
+          "solar": 0,
+          "heating": 0.5,
+          "cooling": 0
+        },
+        "bounds": {
+          "maxLat": 56.3,
+          "minLon": 11.0
+        }
+      }
+    ],
+    "zoneRules": [
+      {
+        "zone": "DK2",
+        "bounds": {
+          "minLat": 55.64,
+          "maxLat": 55.78,
+          "minLon": 10.85,
+          "maxLon": 11.1
+        }
+      },
+      {
+        "zone": "DK2",
+        "bounds": {
+          "minLat": 54.75,
+          "maxLat": 54.87,
+          "minLon": 10.9,
+          "maxLon": 11.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "FI",
+    "name": "Finland",
+    "flag": "🇫🇮",
+    "subunitLabel": "snt",
+    "currencyLabel": "€",
+    "vatRate": 0.255,
+    "tomorrowPublishHour": 14,
+    "timeZoneID": "Europe/Helsinki",
+    "providerID": "spotHinta",
+    "baseURL": "https://api.spot-hinta.fi/TodayAndDayForward",
+    "zones": [
+      {
+        "id": "FI",
+        "description": "FI",
+        "weatherLat": 60.1699,
+        "weatherLon": 24.9384,
+        "outlook": {
+          "wind": 1.0,
+          "solar": 0,
+          "heating": 1.0,
+          "cooling": 0
+        }
+      }
+    ]
+  }
+]
