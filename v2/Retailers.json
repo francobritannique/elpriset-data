@@ -8,7 +8,18 @@
         "brandColor": "#00B04F",
         "lastUpdated": "2026-10",
         "market": "SE",
-        "source": "Elpriskollen"
+        "source": "Elpriskollen",
+        "zoneTerms": {
+            "SE1": {
+                "paslagOerePerKWh": 7.9
+            },
+            "SE2": {
+                "paslagOerePerKWh": 8.09
+            },
+            "SE4": {
+                "paslagOerePerKWh": 9.59
+            }
+        }
     },
     {
         "id": "vattenfall",
@@ -52,7 +63,18 @@
         "brandColor": "#127345",
         "lastUpdated": "2026-10",
         "market": "SE",
-        "source": "Elpriskollen"
+        "source": "Elpriskollen",
+        "zoneTerms": {
+            "SE1": {
+                "paslagOerePerKWh": 6.95
+            },
+            "SE2": {
+                "paslagOerePerKWh": 7.73
+            },
+            "SE4": {
+                "paslagOerePerKWh": 7.38
+            }
+        }
     },
     {
         "id": "skellefteakraft",
@@ -63,7 +85,18 @@
         "brandColor": "#D91A21",
         "lastUpdated": "2026-10",
         "market": "SE",
-        "source": "Elpriskollen"
+        "source": "Elpriskollen",
+        "zoneTerms": {
+            "SE1": {
+                "paslagOerePerKWh": 13.39
+            },
+            "SE2": {
+                "paslagOerePerKWh": 15.2
+            },
+            "SE4": {
+                "paslagOerePerKWh": 17.26
+            }
+        }
     },
     {
         "id": "jamtkraft",
@@ -74,7 +107,18 @@
         "brandColor": "#008C4C",
         "lastUpdated": "2026-10",
         "market": "SE",
-        "source": "Elpriskollen"
+        "source": "Elpriskollen",
+        "zoneTerms": {
+            "SE1": {
+                "paslagOerePerKWh": 10.59
+            },
+            "SE2": {
+                "paslagOerePerKWh": 10.63
+            },
+            "SE4": {
+                "paslagOerePerKWh": 11.19
+            }
+        }
     },
     {
         "id": "malarenergi",
@@ -129,7 +173,15 @@
         "brandColor": "#012D2F",
         "lastUpdated": "2026-10",
         "market": "SE",
-        "source": "Elpriskollen"
+        "source": "Elpriskollen",
+        "zoneTerms": {
+            "SE1": {
+                "paslagOerePerKWh": 8.37
+            },
+            "SE2": {
+                "paslagOerePerKWh": 8.37
+            }
+        }
     },
     {
         "id": "se-luleaenergi",
@@ -162,7 +214,18 @@
         "brandColor": "#FFD200",
         "lastUpdated": "2026-10",
         "market": "SE",
-        "source": "Elpriskollen"
+        "source": "Elpriskollen",
+        "zoneTerms": {
+            "SE1": {
+                "paslagOerePerKWh": 4.61
+            },
+            "SE2": {
+                "paslagOerePerKWh": 4.62
+            },
+            "SE4": {
+                "paslagOerePerKWh": 6.17
+            }
+        }
     },
     {
         "id": "se-etcel",
@@ -173,7 +236,18 @@
         "brandColor": "#E2001A",
         "lastUpdated": "2026-10",
         "market": "SE",
-        "source": "Elpriskollen"
+        "source": "Elpriskollen",
+        "zoneTerms": {
+            "SE1": {
+                "paslagOerePerKWh": 16.85
+            },
+            "SE2": {
+                "paslagOerePerKWh": 17.87
+            },
+            "SE4": {
+                "paslagOerePerKWh": 18.16
+            }
+        }
     },
     {
         "id": "se-stockholmselbolag",
@@ -239,7 +313,18 @@
         "brandColor": "#2E7D32",
         "lastUpdated": "2026-10",
         "market": "SE",
-        "source": "Elpriskollen"
+        "source": "Elpriskollen",
+        "zoneTerms": {
+            "SE1": {
+                "paslagOerePerKWh": 7.86
+            },
+            "SE2": {
+                "paslagOerePerKWh": 7.96
+            },
+            "SE4": {
+                "paslagOerePerKWh": 7.96
+            }
+        }
     },
     {
         "id": "se-jonkopingenergi",
@@ -272,7 +357,18 @@
         "brandColor": "#009FE3",
         "lastUpdated": "2026-10",
         "market": "SE",
-        "source": "Elpriskollen"
+        "source": "Elpriskollen",
+        "zoneTerms": {
+            "SE1": {
+                "paslagOerePerKWh": 6.4
+            },
+            "SE2": {
+                "paslagOerePerKWh": 6.5
+            },
+            "SE4": {
+                "paslagOerePerKWh": 6.5
+            }
+        }
     },
     {
         "id": "se-gavleenergi",
@@ -283,7 +379,18 @@
         "brandColor": "#E5007D",
         "lastUpdated": "2026-10",
         "market": "SE",
-        "source": "Elpriskollen"
+        "source": "Elpriskollen",
+        "zoneTerms": {
+            "SE1": {
+                "paslagOerePerKWh": 9.68
+            },
+            "SE2": {
+                "paslagOerePerKWh": 8.71
+            },
+            "SE4": {
+                "paslagOerePerKWh": 7.12
+            }
+        }
     },
     {
         "id": "se-eskilstunaenergi",
@@ -393,7 +500,13 @@
         "brandColor": "#0033A0",
         "lastUpdated": "2026-10",
         "market": "NO",
-        "source": "ishavskraft.no"
+        "source": "ishavskraft.no",
+        "zoneTerms": {
+            "NO4": {
+                "paslagOerePerKWh": 4.99,
+                "monthlyFee": 49.0
+            }
+        }
     },
     {
         "id": "no-agva",
@@ -574,8 +687,8 @@
     {
         "id": "no-folkekraft",
         "name": "Folkekraft",
-        "paslagOerePerKWh": 3.12,
-        "monthlyFeeSEK": 49.0,
+        "paslagOerePerKWh": 0.0,
+        "monthlyFeeSEK": 45.0,
         "vatRate": 0.25,
         "brandColor": "#FF5A5F",
         "lastUpdated": "2026-10",

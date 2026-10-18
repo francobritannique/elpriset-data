@@ -23,7 +23,8 @@
           "cooling": 0
         },
         "bounds": {
-          "minLat": 64.9
+          "minLat": 64.65,
+          "minLon": 17.3
         }
       },
       {
@@ -38,8 +39,7 @@
           "cooling": 0
         },
         "bounds": {
-          "minLat": 61.0,
-          "maxLat": 64.9
+          "minLat": 61.0
         }
       },
       {
@@ -54,7 +54,7 @@
           "cooling": 0
         },
         "bounds": {
-          "minLat": 56.6,
+          "minLat": 57.0,
           "maxLat": 61.0
         }
       },
@@ -68,6 +68,77 @@
           "solar": 0,
           "heating": 1.0,
           "cooling": 0
+        }
+      }
+    ],
+    "zoneRules": [
+      {
+        "zone": "SE3",
+        "bounds": {
+          "minLat": 56.85,
+          "maxLat": 58.0,
+          "minLon": 18.0,
+          "maxLon": 19.5
+        }
+      },
+      {
+        "zone": "SE4",
+        "bounds": {
+          "minLat": 57.0,
+          "maxLat": 57.27,
+          "minLon": 13.8,
+          "maxLon": 14.4
+        }
+      },
+      {
+        "zone": "SE4",
+        "bounds": {
+          "minLat": 57.0,
+          "maxLat": 57.4,
+          "minLon": 16.0,
+          "maxLon": 17.2
+        }
+      },
+      {
+        "zone": "SE3",
+        "bounds": {
+          "minLat": 61.0,
+          "maxLat": 61.55,
+          "maxLon": 15.0
+        }
+      },
+      {
+        "zone": "SE3",
+        "bounds": {
+          "minLat": 61.0,
+          "maxLat": 61.3,
+          "minLon": 15.0,
+          "maxLon": 15.4
+        }
+      },
+      {
+        "zone": "SE3",
+        "bounds": {
+          "minLat": 61.55,
+          "maxLat": 61.95,
+          "maxLon": 13.6
+        }
+      },
+      {
+        "zone": "SE3",
+        "bounds": {
+          "minLat": 61.95,
+          "maxLat": 62.3,
+          "maxLon": 12.6
+        }
+      },
+      {
+        "zone": "SE2",
+        "bounds": {
+          "minLat": 60.84,
+          "maxLat": 61.0,
+          "minLon": 16.5,
+          "maxLon": 16.95
         }
       }
     ]
@@ -128,7 +199,8 @@
           "cooling": 0
         },
         "bounds": {
-          "maxLat": 59.3
+          "maxLat": 59.3,
+          "maxLon": 10.62
         }
       },
       {
@@ -160,6 +232,121 @@
           "cooling": 0
         }
       }
+    ],
+    "zoneRules": [
+      {
+        "zone": "NO3",
+        "bounds": {
+          "minLat": 65.0,
+          "maxLat": 65.15,
+          "maxLon": 12.0
+        }
+      },
+      {
+        "zone": "NO4",
+        "bounds": {
+          "minLat": 64.6,
+          "maxLat": 65.0,
+          "minLon": 12.6
+        }
+      },
+      {
+        "zone": "NO3",
+        "bounds": {
+          "minLat": 61.75,
+          "maxLat": 63.0,
+          "maxLon": 9.9
+        }
+      },
+      {
+        "zone": "NO3",
+        "bounds": {
+          "minLat": 61.3,
+          "maxLat": 61.75,
+          "maxLon": 6.6
+        }
+      },
+      {
+        "zone": "NO3",
+        "bounds": {
+          "minLat": 62.4,
+          "maxLat": 63.0,
+          "minLon": 9.9,
+          "maxLon": 10.9
+        }
+      },
+      {
+        "zone": "NO5",
+        "bounds": {
+          "minLat": 60.8,
+          "maxLat": 61.7,
+          "minLon": 7.0,
+          "maxLon": 8.1
+        }
+      },
+      {
+        "zone": "NO5",
+        "bounds": {
+          "minLat": 60.15,
+          "maxLat": 60.95,
+          "minLon": 7.0,
+          "maxLon": 9.5
+        }
+      },
+      {
+        "zone": "NO2",
+        "bounds": {
+          "minLat": 59.3,
+          "maxLat": 59.95,
+          "minLon": 4.5,
+          "maxLon": 9.05
+        }
+      },
+      {
+        "zone": "NO2",
+        "bounds": {
+          "minLat": 59.95,
+          "maxLat": 60.17,
+          "minLon": 4.9,
+          "maxLon": 6.15
+        }
+      },
+      {
+        "zone": "NO2",
+        "bounds": {
+          "minLat": 59.95,
+          "maxLat": 60.15,
+          "minLon": 8.2,
+          "maxLon": 9.05
+        }
+      },
+      {
+        "zone": "NO2",
+        "bounds": {
+          "minLat": 59.3,
+          "maxLat": 59.72,
+          "minLon": 9.05,
+          "maxLon": 9.42
+        }
+      },
+      {
+        "zone": "NO2",
+        "bounds": {
+          "minLat": 59.3,
+          "maxLat": 59.62,
+          "minLon": 9.85,
+          "maxLon": 10.36
+        }
+      },
+      {
+        "zone": "NO2",
+        "bounds": {
+          "minLat": 59.3,
+          "maxLat": 59.48,
+          "minLon": 10.36,
+          "maxLon": 10.56
+        }
+      }
     ]
   },
   {
@@ -184,9 +371,6 @@
           "solar": 0,
           "heating": 0.5,
           "cooling": 0
-        },
-        "bounds": {
-          "maxLon": 11.0
         }
       },
       {
@@ -199,6 +383,21 @@
           "solar": 0,
           "heating": 0.5,
           "cooling": 0
+        },
+        "bounds": {
+          "maxLat": 56.3,
+          "minLon": 11.0
+        }
+      }
+    ],
+    "zoneRules": [
+      {
+        "zone": "DK2",
+        "bounds": {
+          "minLat": 55.69,
+          "maxLat": 55.78,
+          "minLon": 10.85,
+          "maxLon": 11.1
         }
       }
     ]
