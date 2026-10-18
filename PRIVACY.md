@@ -45,13 +45,14 @@ one of your settings. You can always pick the zone by hand instead.
 ## Network requests
 
 The app and the widget connect directly to the services below. None of them receives your
-location or any identifier from the app. Like any internet request, each request reveals
+location or any identifier from the app. The one exception is a Tibber API token you enter
+yourself, which is sent only to Tibber. Like any internet request, each request reveals
 your IP address and standard technical details, such as the app name and iOS version in the
 user agent. Each service handles these under its own policy.
 
 | Service | Why | What the request contains |
 |---|---|---|
-| elprisetjustnu.se, hvakosterstrommen.no and elprisenligenu.dk (Sweden, Norway, Denmark); api.spot-hinta.fi (Finland) | Spot prices | The day and, for the first three, the price zone (e.g. SE3) |
+| elprisetjustnu.se, hvakosterstrommen.no and elprisenligenu.dk (Sweden, Norway, Denmark); api.spot-hinta.fi (Finland) | Spot prices | For the first three, the day and the price zone (e.g. SE3). For api.spot-hinta.fi, nothing: it always returns today's and tomorrow's prices for Finland |
 | api.met.no (Norwegian Meteorological Institute) | Weather forecast for the price outlook | The coordinates of a fixed reference city for your zone (e.g. Stockholm for SE3), never your own location |
 | raw.githubusercontent.com (GitHub) | Up-to-date retailer and market configuration | Nothing beyond the request itself |
 | api.tibber.com | Your own Tibber prices, only if you enter a Tibber API token | Your token |
