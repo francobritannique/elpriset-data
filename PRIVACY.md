@@ -89,4 +89,4 @@ top will change. Earlier versions are in this repository's history.
 
 ## Contact
 
-**[DEVELOPER: add a contact email address here before publishing.]**
+elpriset@carlill.com
