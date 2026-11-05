@@ -2,7 +2,7 @@
     {
         "id": "fortum",
         "name": "Fortum",
-        "paslagOerePerKWh": 8.99,
+        "paslagOerePerKWh": 3.9,
         "monthlyFeeSEK": 69.0,
         "vatRate": 0.25,
         "brandColor": "#00B04F",
@@ -11,13 +11,13 @@
         "source": "Elpriskollen",
         "zoneTerms": {
             "SE1": {
-                "paslagOerePerKWh": 7.9
+                "paslagOerePerKWh": 3.9
             },
             "SE2": {
-                "paslagOerePerKWh": 8.09
+                "paslagOerePerKWh": 3.9
             },
             "SE4": {
-                "paslagOerePerKWh": 9.59
+                "paslagOerePerKWh": 3.9
             }
         }
     },
