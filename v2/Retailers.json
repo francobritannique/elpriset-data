@@ -8,18 +8,7 @@
         "brandColor": "#00B04F",
         "lastUpdated": "2026-10",
         "market": "SE",
-        "source": "Elpriskollen",
-        "zoneTerms": {
-            "SE1": {
-                "paslagOerePerKWh": 3.9
-            },
-            "SE2": {
-                "paslagOerePerKWh": 3.9
-            },
-            "SE4": {
-                "paslagOerePerKWh": 3.9
-            }
-        }
+        "source": "Elpriskollen"
     },
     {
         "id": "vattenfall",
